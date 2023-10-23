@@ -8,7 +8,7 @@ let numeroAleatorio = gerarNumAleatorio();
 function criarTexto(teg,texto){
      let campo =  document.querySelector(teg);
      campo.innerHTML = texto
-     responsiveVoice.Speak(texto,'Brazilian Portuguese Famale',{rate: 1.2});
+     responsiveVoice.speak(texto,'Brazilian Portuguese Famale',{rate: 1.2});
    
 }
 function exibirTextoInicial(){
